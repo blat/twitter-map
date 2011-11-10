@@ -1,0 +1,42 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%; margin: 0; padding: 0
+}
+
+#map_canvas {
+    height: 100%; width: 100%;
+}
+
+.tweet {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.tweet a {
+    color: #0094C2;
+    text-decoration: none;
+}
+
+.tweet .avatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.tweet .name {
+    font-weight: bold;
+}
+
+.tweet .date {
+    margin-left: 5px;
+    color: #444;
+    font-size: 9px;
+}
+
+.tweet .content {
+    padding: 0;
+    margin: 4px 0;
+}
