@@ -1,12 +1,28 @@
-twitter-map
+Twitter Map
 ===============
+
 Allow you to display a map with geolocalised tweets which match a given keyword.
 
-setup
+
+Requirements
 ------------------
-depends on: ruby, [em-http-request](https://github.com/igrigorik/em-http-request)
 
-1. setup an http server with a vhost on **/public**
-2. run server:
+* A browser with [web sockets](http://caniuse.com/websockets) support.
 
-    ruby server.rb <username> <password> <keyword>
+
+Dependances
+------------------
+
+* [em-http-request](https://github.com/igrigorik/em-http-request)
+
+
+Setup
+------------------
+
+1. Install ruby and all dependancies (see above)
+
+2. Setup an HTTP server with a vhost on `/public`
+
+3. Run backend:
+
+        ruby server.rb <username> <password> <keyword>
