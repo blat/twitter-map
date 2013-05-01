@@ -1,7 +1,7 @@
 Twitter Map
 ===============
 
-Allow you to display a map with geolocalised tweets which match a given keyword.
+Allow you to display a map (updated in real-time!) with geolocalised tweets which match a given keyword.
 
 
 Requirements
